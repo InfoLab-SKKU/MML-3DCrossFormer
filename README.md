@@ -1,4 +1,4 @@
-# Robust Multi-Scale 3D CrossFormer for Alzheimer’s Diagnosis
+# 3D CrossFormer Model for Multimodal Medical Image Analysis using Volumetric MRI and Structured Data
 
 This repository contains the implementation and experimental code for the paper:
 
@@ -8,7 +8,7 @@ This repository contains the implementation and experimental code for the paper:
 
 ## Overview
 
-Deep learning approaches have revolutionized medical image analysis. Our work introduces a novel 3D Vision Transformer (3DMCF) tailored to volumetric MRI and a multimodal fusion strategy that integrates 3D MRI embeddings with structured clinical data for Alzheimer’s disease (AD) diagnosis.
+Accurate and robust analysis of volumetric medical images in conjunction with structured clinical data is essential for the early detection of complex diseases. We introduce a novel 3D MRI CrossFormer framework that harnesses hierarchical cross-scale embeddings and dual-range self-attention to extract rich spatial features from volumetric MRI scans. These spatial embeddings are then fused with clinical feature embeddings, derived via a lightweight multilayer perceptron, through an intermediate fusion strategy.
 
 ## Key Features
 
