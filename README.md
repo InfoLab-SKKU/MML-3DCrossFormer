@@ -46,28 +46,29 @@ The following figures from the paper illustrate key components and results:
 ```
 MML-AlzheimerDiagnosis/
 ├── configs/
-│ ├── 3DMCF/
-│ └── 3DMCF_pp/
+│   ├── 3DMCF/
+│   └── 3DMCF_pp/
 ├── data/
-│ └── (MRI volumes & preprocessing outputs)
+│   └── tabular/
+│       └── ADNIMERGE_12Dec2024.csv
 ├── models/
-│ ├── tabular/
-│ │ └── ADNIMERGE_12Dec2024.csv
-│ └── utils/
-│ ├── data_preprocess_and_load/
-│ ├── init.py
-│ ├── data_module.py
-│ ├── losses.py
-│ ├── lr_scheduler.py
-│ ├── metrics.py
-│ ├── neptune_utils.py
-│ ├── parser.py
-│ └── seed_creation.py
-├── 3DMCF.py
-├── build.py
-├── Crossformer.py
-├── README.md
-└── requirements.txt
+│   ├── utils/
+│   │   ├── data_preprocess_and_load/
+│   │   ├── __init__.py
+│   │   ├── data_module.py
+│   │   ├── losses.py
+│   │   ├── lr_scheduler.py
+│   │   ├── metrics.py
+│   │   ├── neptune_utils.py
+│   │   ├── parser.py
+│   │   └── seed_creation.py
+│   ├── 3DMCF.py
+│   ├── __init__.py
+│   ├── build.py
+│   └── Crossformer.py
+├── readme_files/
+├── LICENSE
+└── README.md
 ```
 
 
