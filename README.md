@@ -1,4 +1,4 @@
-# 3D CrossFormer Model for Multimodal Medical Image Analysis using Volumetric MRI and Structured Data
+# 3D CrossFormer for Multimodal Learning (MML) in Medical Image Analysis Using Volumetric MRI and Structured Clinical Data
 
 This repository contains the implementation and experimental code for the paper:
 
